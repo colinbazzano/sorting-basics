@@ -5,6 +5,42 @@ import random
 import math
 
 
+# O(log n)
+"""2 powers
+
+Exponential
+2 ^ 0 = 1
+2 ^ 1 = 2
+2 ^ 2 = 4
+2 ^ 3 = 8
+2 ^ 4 = 16
+2 ^ 5 = 32
+2 ^ 6 = 64
+2 ^ 7 = 128
+2 ^ 8 = 256
+2 ^ 9 = 512
+2 ^ 10 = 1024
+
+Logarithmic
+log2(1) = 0
+log2(2) = 1
+log2(4) = 2
+log2(8) = 3
+log2(16) = 4
+log2(32) = 5
+log2(64) = 6
+log2(128) = 7
+log2(256) = 8
+log2(512) = 9
+log2(1024) = 10
+
+log2(1,000) = 10
+log2(1,000,000) = 20
+log2(1,000,000,000) = 30
+
+"""
+
+
 def secret_to_coding_1():
     print("")
     print("Beautiful code is both ELEGANT and EFFICIENT")
@@ -13,7 +49,6 @@ def secret_to_coding_1():
     print("")
 
 
-​
 ​
 # Returns the secret to beautiful code
 
